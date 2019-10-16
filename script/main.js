@@ -15,6 +15,5 @@ var htmlElement = document.getElementById("result");
 
 var htmlElement = document.getElementById("result");
 
-htmlElement.innerHTML = "Ciao" (nome+cognome) "; La prima parte della tua password è: " + (nome+cognome) + "<br>La seconda parte la trovi stampata in Console Log";
-
+htmlElement.innerHTML = "Ciao "+nome+" "+cognome+ "; La prima parte della tua password è: "+nome+""+cognome+ "<br>La seconda parte la trovi stampata in Console Log.";
 console.log(colore + "19");
