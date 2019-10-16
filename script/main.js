@@ -12,9 +12,9 @@ var outputfin = nome + cognome + colore +"19"
 var htmlElement = document.getElementById("result");
 
 // output finale su elemento selezionato
-htmlElement.innerHTML = "La prima parte della tua password è: " + (nome+cognome);
 
-var htmlElement = document.getElementById("result2");
-htmlElement.innerHTML = "La prima parte della tua password è: " + (nome+cognome) + "La seconda parte la trovi stampata in Console Log";
+var htmlElement = document.getElementById("result");
 
-console.log (colore+"19")
+htmlElement.innerHTML = "La prima parte della tua password è: " + (nome+cognome) + "<br>La seconda parte la trovi stampata in Console Log";
+
+console.log(colore + "19")
